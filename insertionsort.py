@@ -6,4 +6,5 @@ for i in range(n):
             temp=arr[j+i]
             arr[j+i]=arr[j]
             arr[j]=temp
-print(arr)
+print(*arr)
+
